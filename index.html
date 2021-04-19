@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Github User Finder</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header class="header">
+			<h1>Github User Finder</h1>
+		</header>
+		<main class="main">
+            <div>
+			<input type="text" placeholder="Enter a Github username" />
+			<section class="user-info container">
+				<div class="image"><img class="user-image"  alt="user_image" /></div>
+				<h2 id='user-name'>Username</h2>
+				<span id='user-id'>userid</span>
+				<div class="followers flex list">
+					Followers:
+					<ul class="flex follower-list">
+						<li><img src="" alt=""> </li>
+						<li><img src="" alt=""> </li>
+						<li><img src="" alt=""> </li>
+						<li><img src="" alt=""> </li>
+						<li><img src="" alt=""> </li>
+					</ul>
+				</div>
+				<div class="following flex list">
+					Following:
+					<ul class="flex following-list">
+						<li><img src="" alt=""></li>
+						<li><img src="" alt=""></li>
+						<li><img src="" alt=""></li>
+						<li><img src="" alt=""></li>
+						<li><img src="" alt=""></li>
+					</ul>
+				</div>
+			</section>
+
+		</main>
+		<script src="index.js"></script>
+	</body>
+</html>
+
+<!-- https://api.thecatapi.com/v1/images/search?limit=1&size=full -->
