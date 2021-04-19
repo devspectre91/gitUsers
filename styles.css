@@ -175,6 +175,13 @@ img {
 	width: 50px;
 	border-radius: 50%;
 }
+.image-box {
+	width: 20%;
+	margin: 0 auto;
+}
+.image-box img {
+	width: 100%;
+}
 ul li {
 	width: 30%;
 	margin-left: 1rem;
